@@ -17,7 +17,6 @@ public class HashSetTests {
 		
 		//add
 		sut.put("One", 1);
-		
 	
 		//assert
 		assertThat(sut.get("One"), is(1));
